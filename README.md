@@ -24,7 +24,7 @@ Term: Spring 2018
  
  + **Huang, Yuexuan**:  Yuexuan Huang is responsible for GBM model. Calculated K-means based color map for train_image and get their labels. Extracted HOG and DAISY features from images. Predicted image color by GBM. Organized github files and edited readme.
  
- + **Zheng, Jia**: Jia Zheng is responding for testing CNN colorization: both alpha and beta version. Attempt to implement SLIC superpixel segmentation and RANSAC image matching techniques to colorize image by corresponding superpixel. 
+ + **Zheng, Jia**: Jia Zheng is responsibale for testing CNN colorization: both alpha and beta version. Attempt to implement SLIC superpixel segmentation and RANSAC image matching techniques to colorize image by corresponding superpixel. 
  
  + **Yang, Fan**: 
  
