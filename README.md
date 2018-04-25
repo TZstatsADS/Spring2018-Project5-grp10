@@ -12,7 +12,9 @@ Term: Spring 2018
 	+ Zheng, Jia jz2891@columbia.edu
 	
 + Project summary: In this project, we...
-	
+
+![Alt Text](output/Hepburn.gif)
+
 **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
  + **Zhu, Qianli**: 
