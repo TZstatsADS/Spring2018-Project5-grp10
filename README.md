@@ -19,15 +19,15 @@ Term: Spring 2018
 
 **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
- + **Zhu, Qianli**: 
+ + **Zhu, Qianli**: Qianli Zhu is respobnsible for collecting and processing data. Buildt up the function of sobel filter. Do presentation
  
  + **Li, Hongyu**: Hongyu Li is responsible for Xgboost model. Got color map by using kmeans. Built SVM model for each color to predict labels of pixels for each image. Built Xgboost model to predict labels of pixels for each image.   
  
  + **Huang, Yuexuan**:  Yuexuan Huang is responsible for GBM model. Calculated K-means based color map for train_image and get their labels. Extracted HOG and DAISY features from images. Predicted image color by GBM. Organized github files and edited readme.
  
- + **Zheng, Jia**: 
+ + **Zheng, Jia**: Jia Zheng is responsible for testing CNN colorization: both alpha and beta version. Attempt to implement SLIC superpixel segmentation and RANSAC image matching techniques to colorize image by corresponding superpixel. 
  
- + **Yang, Fan**: 
+ + **Yang, Fan**: Fan Yang is responsible for Xgboost model. Created the graph cut optimaization and colorize function. Generalize the xgboost and SVM function to train the whole dataset. Built up the function of processing data. Implemented HOG and DAISY feature into xgboost model.
  
   References used: 
 1. Kabir zadeh Sousa Blaes - Automatic Colorization Of Grayscale Images
