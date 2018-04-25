@@ -14,7 +14,7 @@ Term: Spring 2018
 + Project summary: Photo always records a memorable moment for us. Lots of valuable photos which shot long time ago are black and white. In this project, we used machine learning techiniques (CNN, SVM, GBM and Xgboost) to colorize black-and-white images, using a colormap selected from a similar training image. 
 
 
-![Alt Text](output/images/GBM/Archive/img_1.png) ; ![Alt Text](output/Hepburn.gif)
+![Alt Text](output/Images/GBM/Archive/img_1.png) ; ![Alt Text](output/Hepburn.gif)
 
 **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
