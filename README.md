@@ -11,7 +11,8 @@ Term: Spring 2018
 	+ Yang, Fan fy2232@columbia.edu
 	+ Zheng, Jia jz2891@columbia.edu
 	
-+ Project summary: Photo always records a memorable moment for us. Lots of valuable photos which shot long time ago are black and white. In this project, we used machine learning techiniques (CNN, SVM, GBM and Xgboost) to colorize black-and-white images, using a colormap selected from a similar training image. 
++ Project summary: Photo always records a memorable moment for us. Lots of valuable photos which shot long time ago are black and white. In this project, we used machine learning techiniques (CNN, SVM, GBM and Xgboost) to colorize black-and-white images, using a colormap selected from a similar training image. (![main](doc/main.ipynb))
+
 
 
 ![Alt Text](output/Images/GBM/Archive/img_1.png) ; ![Alt Text](output/Hepburn.gif)
@@ -24,7 +25,7 @@ Term: Spring 2018
  
  + **Huang, Yuexuan**:  Yuexuan Huang is responsible for GBM model. Calculated K-means based color map for train_image and get their labels. Extracted HOG and DAISY features from images. Predicted image color by GBM. Organized github files and edited readme.
  
- + **Zheng, Jia**: Jia Zheng is responsible for testing CNN colorization: both alpha and beta version. Attempt to implement SLIC superpixel segmentation and RANSAC image matching techniques to colorize image by corresponding superpixel. 
+ + **Zheng, Jia**: 
  
  + **Yang, Fan**: 
  
