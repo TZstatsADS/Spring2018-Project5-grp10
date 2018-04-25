@@ -17,10 +17,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingClassifier
 
 # import train_label, train_image, test_image
-label999 = pd.read_csv('/Users/yuexuanhuang/Desktop/Proj_5/alpha2/data-label/label999.csv').iloc[:,1:]
-train_color = Image.open('/Users/yuexuanhuang/Desktop/Proj_5/alpha2/standard/7.jpg','r')
+label999 = pd.read_csv('/Users/yuexuanhuang/Documents/GitHub/Spring2018-Project5-grp_10/output/GBM/train_label/label999.csv').iloc[:,1:]
+train_color = Image.open('/Users/yuexuanhuang/Documents/GitHub/Spring2018-Project5-grp_10/data/GBM/data-ach/7.jpg','r')
 label = label999
-test_color = Image.open('/Users/yuexuanhuang/Desktop/Proj_5/alpha2/Archive/img_1.png','r')
+test_color = Image.open('/Users/yuexuanhuang/Documents/GitHub/Spring2018-Project5-grp_10/data/GBM/Archive/img_1.png','r')
 
 # train model, predict, output
 def colorme(train_color, train_label, test_color):
@@ -136,9 +136,9 @@ test_color = test_color.convert('L') #makes it greyscale
 test_gray = np.asarray(test_color.getdata(),dtype=np.float64).reshape((test_color.size[1],test_color.size[0]))
 test_gray = np.asarray(test_gray,dtype=np.uint8) #if values still in range 0-255! 
 test_gray = Image.fromarray(test_gray,mode='L')
-test_gray.save('/Users/yuexuanhuang/Desktop/Proj_5/alpha2/gray/gray%s.png'%11)
+test_gray.save('/Users/yuexuanhuang/Documents/GitHub/Spring2018-Project5-grp_10/output/GBM/gray/gray%s.png'%11)
 
-img = cv2.imread('/Users/yuexuanhuang/Desktop/Proj_5/alpha2/Archive/img_1.png')
+img = cv2.imread('/Users/yuexuanhuang/Documents/GitHub/Spring2018-Project5-grp_10/data/GBM/Archive/img_1.png')
 # img = cv2.resize(img, (256, 256)) 
 l, a, b = cv2.split(cv2.cvtColor(img, cv2.COLOR_RGB2LAB))
 Lab_l = np.matrix(l)
