@@ -19,7 +19,7 @@ Term: Spring 2018
  
  + **Li, Hongyu**:  
  
- + **Huang, Yuexuan**:  
+ + **Huang, Yuexuan**:  Yuexuan Huang is responsible for GBM model. Calculated K-means based color map for train_image and get their labels. Extracted HOG and DAISY features from images. Predicted image color by GBM. Organized github files and edited readme.
  
  + **Zheng, Jia**: 
  
