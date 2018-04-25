@@ -30,18 +30,19 @@ Term: Spring 2018
  
   References used: 
 1. Kabir zadeh Sousa Blaes - Automatic Colorization Of Grayscale Images
-2. Deshpande, Aditya, et al. ???Learning Large-Scale Automatic Image Colorization.???Http://Vision.cs.illinois.edu/Projects/Lscolor/, 2015, www.bing.com/cr?IG=6B02F6641D5E4031BC11DA38D3088C94&CID=251B462EF8D16B7116D44DF2F97E6A82&rd=1&h=dTjkRAib9tO5pMcu443bwSJf5e5e-7HRyxu8rBnroDc&v=1&r=https%3a%2f%2fwww.cv-foundation.org%2fopenaccess%2fcontent_iccv_2015%2fpapers%2fDeshpande_Learning_Large-Scale_Automatic_ICCV_2015_paper.pdf&p=DevEx.LB.1,5077.1
-3. Iizuka, Satoshi, et al. ???Let There Be Color!: Joint End-to-End Learning of Global and Local Image Priors for Automatic Image Colorization with Simultaneous Classification.??? Let There Be Color!: Joint End-to-End Learning of Global and Local Image Priors for Automatic Image Colorization with Simultaneous Classification, 2016, hi.cs.waseda.ac.jp/~iizuka/projects/colorization/en/.
+2. Deshpande, Aditya, et al. "Learning Large-Scale Automatic Image Colorization." Http://Vision.cs.illinois.edu/Projects/Lscolor/, 2015, www.bing.com/cr?IG=6B02F6641D5E4031BC11DA38D3088C94&CID=251B462EF8D16B7116D44DF2F97E6A82&rd=1&h=dTjkRAib9tO5pMcu443bwSJf5e5e-7HRyxu8rBnroDc&v=1&r=https%3a%2f%2fwww.cv-foundation.org%2fopenaccess%2fcontent_iccv_2015%2fpapers%2fDeshpande_Learning_Large-Scale_Automatic_ICCV_2015_paper.pdf&p=DevEx.LB.1,5077.1
+3. Iizuka, Satoshi, et al. "Let There Be Color!: Joint End-to-End Learning of Global and Local Image Priors for Automatic Image Colorization with Simultaneous Classification." Let There Be Color!: Joint End-to-End Learning of Global and Local Image Priors for Automatic Image Colorization with Simultaneous Classification, 2016, hi.cs.waseda.ac.jp/~iizuka/projects/colorization/en/.
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
 ```
 proj/
-????????? lib/
-????????? data/
-????????? doc/
-????????? figs/
-????????? output/
+|-- R/
+|-- data/
+|-- doc/
+|-- figs/
+|-- output/
+|-- analysis.R
 ```
 
 Please see each subfolder for a README file.
