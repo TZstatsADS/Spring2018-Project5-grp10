@@ -11,7 +11,7 @@ Term: Spring 2018
 	+ Yang, Fan fy2232@columbia.edu
 	+ Zheng, Jia jz2891@columbia.edu
 	
-+ Project summary: Photo always records a memorable moment for us. Lots of valuable photos which shot long time ago are black and white. In this project, we used machine learning techiniques (CNN, SVM, GBM and Xgboost) to colorize black-and-white images, using a colormap selected from a similar training image. (![main](doc/main.ipynb))
++ Project summary: Photo always records a memorable moment for us. Lots of valuable photos which shot long time ago are black and white. In this project, we used machine learning techiniques (CNN, SVM, GBM and Xgboost) to colorize black-and-white images, using a colormap selected from a similar training image. ([main](doc/main.ipynb))
 
 
 
